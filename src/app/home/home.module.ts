@@ -1,7 +1,7 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 import { IonicModule } from '@ionic/angular';
-import { FormsModule } from '@angular/forms';
+import { AngularPinturaModule } from '@pqina/angular-pintura';
 import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
@@ -10,9 +10,9 @@ import { HomePageRoutingModule } from './home-routing.module';
 @NgModule({
   imports: [
     CommonModule,
-    FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    AngularPinturaModule,
+    HomePageRoutingModule,
   ],
   declarations: [HomePage]
 })
