@@ -1,0 +1,7 @@
+{
+  "name": "pintura-editor-playground",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
